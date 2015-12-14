@@ -1,0 +1,39 @@
+#instruction {
+	border: 1px #000 solid;
+	background: #CCFFCC;
+	position: absolute;
+	padding-right:25px;
+	border-radius:5px;
+}
+.item{ /* this is row*/
+	display:table-row;
+	width:auto;
+	height: auto;
+	clear:both;
+}
+span{
+	float:left;/*fix for  buggy browsers*/
+	display:table-column; 
+	text-align:center;
+}
+.eventTitle{
+	width: 408px;
+	height: 60px;/* allow 3 line */
+	word-wrap:break-word;
+}
+.eventStartDate{
+	width: 108px;
+}
+.eventEndDate{
+	width: 108px;
+}
+.catDesc{
+	width: 156px;
+}
+.venueName{
+	width: 264px;
+}
+.eventPrice{
+	width: 46px;
+	align: center;
+}

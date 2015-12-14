@@ -1,0 +1,90 @@
+#instruction {
+	border: 1px #000 solid;
+	background: #CCFFCC;
+	position: absolute;
+	padding-right:25px;
+	border-radius:5px;
+}
+.item{ /* this is row*/
+	display:table-row;
+	width:auto;
+	height: auto;
+	clear:both;
+}
+span{
+	float:left;/*fix for  buggy browsers*/
+	display:table-column; 
+	text-align:center;
+}
+body {
+	background:grey;
+	margin: 0 ; 
+	padding: 0 ; 
+	font-family: sans-serif; 
+}
+div {
+	padding: 1px 0;
+}
+#header {
+	background: #CCFF55;
+	text-align:center;
+}
+#content {
+	background: #33FFCC;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 46%;
+	height: 100%;
+}
+
+#footer{
+	background: #FF5C33;
+}
+
+#upcomingEvents{
+	background: #CCFFCC;
+}
+
+#navigation{
+	float:left;
+	background: #FFA480;
+	width: 25%;
+	text-align:center;
+	height: 100%;
+}
+#banner {
+	color: yellow;
+	background: #CCFFCC;
+	text-align: center;
+}
+#offers {
+	font-size: 24px;
+}
+
+#XMLoffers {
+	clear: both;
+	background: #9999FF;
+	font-size: 18px;
+}
+
+#weather {
+	float: right;
+	width: 25%;
+	background: #66FF66;
+	height: 326px;
+}
+#loginForm{
+	/*background:#CCBBCC;*/
+}
+
+#afterHead{
+	background:#CCBBCC;
+}
+#wrapBody {
+	height: 326px;
+}
+
+#changeCSS {
+	float: right;
+}
